@@ -1,0 +1,22 @@
+ h1 {
+    background-color: #f2f2f2;
+    color: rgb(21, 27, 77);
+ }
+
+ banner1{
+    display: center;
+    background-color: #c06767;
+    color: rgb(0, 0, 0);
+ 
+    
+ }
+
+ label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }     
+ 
+ 
+ 
+ border-right-width: 20;
