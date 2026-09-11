@@ -1,22 +1,76 @@
- h1 {
-    background-color: #f2f2f2;
-    color: rgb(21, 27, 77);
- }
+body {
+    background-image: url(fotos/plano\ de\ fundo.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+     background-position: center;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
- banner1{
-    display: center;
-    background-color: #c06767;
-    color: rgb(0, 0, 0);
- 
+h1 {
     
- }
+    color: rgb(0, 36, 240);
+}
 
- label {
+label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
  }     
  
  
- 
- border-right-width: 20;
+button {
+      background-color: #0352fd;
+      color: rgb(0, 0, 0);
+      display: center;
+      justify-content: center;
+      font-size: 20px;
+      border-radius : 5px;
+}
+
+h2 {
+    background-color: #f2f2f2;
+    color: rgb(26, 35, 116);
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+ } 
+
+p {
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+ } 
+
+ strong {
+    background-color: #f2f2f2;
+    color: rgb(4, 122, 10);
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+ }
+
+.container {
+
+   
+    width: 500px;
+    margin: 50px ;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.card {
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    border-radius : 5px;
+}
